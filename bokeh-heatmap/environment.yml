@@ -1,0 +1,24 @@
+name: bokeh-heatmap
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - pip=19.0.3
+  - numpy=1.16
+  - pandas=0.24
+  - scipy=1.2.1
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - git
+  - gitpython
+  - bokeh
+  - pip:
+    - black
+    - blackcellmagic
+    - pdbpp
+    - pre-commit
+    - pytest
